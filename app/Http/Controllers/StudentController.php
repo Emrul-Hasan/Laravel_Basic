@@ -17,6 +17,16 @@ class StudentController extends Controller
         // return view('student.delete');
     }
     public function get(){
-        return view('student.get');
+
+        $student = array
+        (
+            "name" =>"Emrul",
+            "id" =>123,
+            "dob" =>"12.12.12"
+
+        );
+        $student = (object) $student; 
+       // return var_dump($student)->with('student',$student);
+        return view('student.get')->with('student',$student);
     }
 }
