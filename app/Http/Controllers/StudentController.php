@@ -16,12 +16,12 @@ class StudentController extends Controller
     public function delete(){
         // return view('student.delete');
     }
-    public function get(){
+    public function get($id){
 
         $student = array
         (
             "name" =>"Emrul",
-            "id" =>123,
+            "id" =>$id,
             "dob" =>"12.12.12"
 
         );
