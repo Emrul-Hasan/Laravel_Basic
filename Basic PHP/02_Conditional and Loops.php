@@ -57,6 +57,14 @@ $fruits = ['apple','banana','mango'];
 foreach($fruits as $value){
     print "$value <br>";
 }
+$person = array(
+    "Emrul" => 10,
+    "Hasan" => 17,
+    "Emon" => 20,
 
+);
+foreach ($person as $key => $age){
+print "Name : $key Age : $age <br>";
+}
 
 ?>
