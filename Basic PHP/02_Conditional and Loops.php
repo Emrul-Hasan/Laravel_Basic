@@ -46,4 +46,17 @@ do{
 while($number1 <=5);
 
 
+// for loop
+
+for($number2 = 0;$number2 <=10;$number2++){
+    print "For Loop: $number2  <br>";
+}
+
+// for each loop
+$fruits = ['apple','banana','mango'];
+foreach($fruits as $value){
+    print "$value <br>";
+}
+
+
 ?>
